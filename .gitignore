@@ -1,0 +1,41 @@
+# ROS 2 / Colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# C++ / CMake
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.o
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Operating system
+.DS_Store
+Thumbs.db
